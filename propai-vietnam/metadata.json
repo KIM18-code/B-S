@@ -1,0 +1,7 @@
+{
+  "name": "PropAI Vietnam",
+  "description": "Intelligent Real Estate Analysis & Customer Matching System powered by Gemini with Google Maps & Search Grounding.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
