@@ -2,8 +2,8 @@
 import { GoogleGenAI, Tool } from "@google/genai";
 import { AnalysisResult, CustomerProfile, GroundingLink, MatchResult, PropertyInput } from "../types";
 
-const API_KEY = process.env.GEMINI_API_KEY || '';
-
+// const API_KEY = process.env.GEMINI_API_KEY || '';
+  const API_KEY = "AIzaSyAGlrKEf84lcQ-qAQrz1q9ntpq1hecRCLo";
 // Initialize without creating client immediately to allow for key check if needed, 
 // though per prompt instructions we assume process.env.API_KEY is available.
 const createClient = () => new GoogleGenAI({ apiKey: API_KEY });
